@@ -8,7 +8,7 @@ export default class NewsItem extends Component{
             <div className='my-3'>
                 <div className="card">
                     <div className="card-header bg-transparent border-success"> Published On: {new Date(date).toDateString()} </div>
-                    <img src={imageUrl ? imageUrl : "https://fdn.gsmarena.com/imgroot/news/22/03/realme-gt-neo3-ofic/-952x498w6/gsmarena_00.jpg"} className="card-img-top" alt="..." />
+                    <img src={imageUrl ? imageUrl : "https://fdn.gsmarena.com/imgroot/news/22/03/realme-gt-neo3-ofic/-952x498w6/gsmarena_00.jpg"} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
